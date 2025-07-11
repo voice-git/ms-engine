@@ -1,0 +1,1069 @@
+.ss-sec1 {
+    .inner {
+        background-image: url(../images/service-station/sec1-top.jpg);
+    }
+}
+
+.ss-common-anker-btn {
+    justify-content: center;
+    .item {
+        margin-right: 7.5%;
+    }
+}
+
+@keyframes anim_h {
+    0% {
+    transform: translate(0px, 0);
+    }
+    100% {
+    transform: translate(15px, 0);
+    }
+}
+@keyframes anim_s {
+    0% {
+    transform: translate(0px, 0);
+    }
+    100% {
+    transform: translate(0, 15px);
+    }
+}
+.haitatu-logo {
+    width: 162px;
+    position: fixed;
+    bottom: 0;
+    z-index:30;
+    right: 33px;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-name: anim_h;
+    &.none {
+        opacity: 0;
+    }
+}
+
+.ss-logo {
+    z-index:30;
+    animation-name: anim_s;
+}
+.active-ss-logo {
+    z-index:9;
+}
+
+.ss-sec2 {
+    padding-top: 101px;
+    .gmap {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 90%;
+        height: 850px;
+        max-width: 1500px;
+    }
+    .service-icons {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 83px;
+        display: flex;
+        justify-content: space-between;
+        .left {
+            width: 23%;
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            .box {
+                display: flex;
+                justify-content: space-between;
+                .img-box {
+                    width: 32%;
+                }
+
+            }
+        }
+        .right {
+            width: 74%;
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            .box {
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                .img-box {
+                    width: 11%;
+                    margin-bottom: 10px;
+                }
+
+            }
+        }
+    }
+    .service-box {
+        width: 78%;
+        margin: 0 auto;
+        margin-top: 68px;
+        max-width: 1300px;
+        color:#C51726;
+        .title-box {
+            display: flex;
+            align-items: center;
+            .img-box {
+                width: 86px;
+            }
+            p {
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+        .box {
+            margin-top: 27px;
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 27px;
+            display: flex;
+            flex-wrap:wrap;
+            .item {
+                width: 33.333%;
+                box-sizing: border-box;
+                padding-left: 23px;
+                border-left: 1px solid #000;
+                padding-top: 35px;
+                .title {
+                    font-size: 22px;
+                    color:#C51726;
+                    img {
+                        display: inline-block;
+                        margin-bottom: -1px;
+                        width: 18px;
+                        height: 18px;
+                        margin-left: 5px;
+                    }
+                }
+                .bd {
+                    width: 28px;
+                    height: 1px;
+                    background-color: black;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+                .address {
+                    font-size: 14px;
+                    color:black;
+                    margin-bottom: 3px;
+                }
+                .tel {
+                    font-size: 14px;
+                    color:black;
+                }
+                .cate-box {
+                    width: 100%;
+                    display: flex;
+                    margin-top: 18px;
+                    margin-left: -10px;
+                    flex-wrap:wrap;
+                    .img-box {
+                        width: 17%;
+                    }
+                }
+                &:nth-child(-n+3) {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+    .service-box2 {
+        color:#2C4582;
+        margin-top: 0;
+        padding: 100px 0;
+        .box {
+            .item {
+                .title {
+                    color:#2C4582;
+                }
+            }
+        }
+    }
+    .seibi-box {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1500px;
+        background-color: #F4F4F4;
+        padding: 0 85px;
+        padding-top: 62px;
+        padding-bottom: 105px;
+        margin-bottom: 138px;
+        box-sizing: border-box;
+        .title-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 55px;
+            .img-box {
+                width: 86px;
+                margin-right: 18px;
+            }
+            p {
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+            .left {
+                width: 32%;
+                box-sizing: border-box;
+                padding-left: 13px;
+                .p1 {
+                    font-size: 22px;
+                    margin-bottom: 14px;
+                }
+                .p2 {
+                    font-size: 15px;
+                    line-height: 1.8;
+                    margin-bottom: 25px;
+                }
+                .icon-box {
+                    display: flex;
+                    flex-wrap:wrap;
+                    margin-left: -10px;
+                    .img-box {
+                        width: 25%;
+                    }
+                }
+            }
+            .right {
+                width: 58%;
+            }
+        }
+        .more-btn {
+            margin-top: 85px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.com-flow-box {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1500px;
+    background-color: #fff;
+    margin-top: 75px;
+    box-sizing: border-box;
+    padding: 0 144px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    .inner {
+        width: 100%;
+        .subtitle {
+            font-size: 20px;
+            font-weight: bold;
+            color:#C51726;
+            text-align: center;
+        }
+        h2 {
+            font-size: 26px;
+            text-align: center;
+            line-height: 1;
+            margin-top: 5px;
+            color:#C51726;
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            .side-box {
+                width: 48%;
+                position: relative;
+                .logo {
+                    width: 58%;
+                    position: absolute;
+                    top: 0;
+                    left: 55%;
+                    transform:translate(-50%,-100%);
+                }
+                h3 {
+                    width: 100%;
+                    text-align: center;
+                    color:white;
+                    background-color: black;
+                    padding: 19px 0;
+                    margin: 0;
+                    margin-bottom: 30px;
+                }
+                .text {
+                    font-size: 16px;
+                    line-height: 2;
+                    text-indent:-1rem;
+                    margin-left: 1rem;
+                }
+                .tel {
+                    width: 95%;
+                    margin-top: 30px;
+                }
+                .tel2 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                    padding-left: 10px;
+                    color:#C51726;
+                }
+                .more-btn {
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    width: 100%;
+                    font-size: 32px;
+                    font-weight: bold;
+                    line-height: 1;
+                    span {
+                        font-size: 17px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ss-sec3 {
+    background-color: #F4F4F4;
+    position: relative;
+    padding-top: 27vw;
+    padding-bottom: 92px;
+    .com-sec-top-img {
+        position: absolute;
+        top: -96px;
+        left: 50%;
+        transform:translate(-50%,0);
+        padding-bottom: 75px;
+        width: 90%;
+        max-width: 1500px;
+    }
+    .text1 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.9;
+    }
+    .title1 {
+        margin-top: 35px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .box1 {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1500px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: space-between;
+        .item {
+            width: 49%;
+            position: relative;
+            .logo {
+                position: absolute;
+                width: 33%;
+                top: -34px;
+                left: 50%;
+                transform:translate(-50%,0);
+            }
+            .bg {
+                width: 100%;
+            }
+            .inner {
+                width: 100%;
+                position: absolute;
+                top: 9vw;
+                left: 50%;
+                transform:translate(-50%,0);
+                text-align: center;
+                font-family: 'Zen Kaku Gothic New', sans-serif;
+                font-weight: 900;
+                color:white;
+                .p1 {
+                    font-size: 1.46vw;
+                    margin-bottom: 1.5vw;
+                }
+                .p2 {
+                    font-size: 3.66vw;
+                    margin: 0;
+                    margin: 0 auto;
+                    line-height: 1.3;
+                    border-bottom: 4px solid #C51726;
+                    margin-bottom: 2.9vw;
+                    width: fit-content;
+                }
+                .p3 {
+                    font-size: 1.9vw;
+                }
+                .p3-2 {
+                    font-size: .95vw;
+                    margin-bottom: -0.5vw;
+                }
+                .p4 {
+                    font-size: 1.17vw;
+                    line-height: 1.7;
+                    margin-top: 30px;
+                }
+            }
+            .text-box {
+                padding-left: 11vw;
+                padding-top: 50px;
+                .title {
+                    font-size: 22px;
+                    font-weight: bold;
+                    color:#C51726;
+                }
+                .text {
+                    font-size: 16px;
+                    margin-top: 17px;
+                    line-height: 1.7;
+                }
+            }
+        }
+        .item2 {
+            .logo {
+                width: 28%;
+            }
+        }
+    }
+    .houjin-banner {
+        background-image: url(../images/service-station/sec3-banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1500px;
+        margin-top: 47px;
+        padding-top: 78px;
+        padding-bottom: 74px;
+        text-align: center;
+        color:white;
+        letter-spacing:2px;
+        h2 {
+            font-size: 33px;
+            font-weight: 900;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            margin: 0;
+            margin-bottom: 5px;
+            letter-spacing:3px;
+        }
+        .p1 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .p2 {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.9;
+        }
+        .more-btn {
+            margin-top: 29px;
+            margin-bottom: 0;
+            padding: 14px 0;
+            border: 2px solid #C51726;
+        }
+    }
+}
+
+.ss-sec4 {
+    padding-top: 83px;
+    .item {
+        margin: 0 auto;
+        margin-top: 78px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        max-width: 1200px;
+        .left {
+            width: 46%;
+        }
+        .right {
+            width: 46%;
+            .title {
+                font-size: 24px;
+                font-weight: 900;
+                font-family: 'Zen Kaku Gothic New', sans-serif;
+                color:#C51726;
+                line-height: 1.55;
+                margin-bottom: 22px;
+                white-space:nowrap;
+            }
+            .text {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 2;
+                padding: 0 7px;
+            }
+        }
+    }
+    .item2 {
+        margin-top: 30px;
+    }
+    .last-text {
+        margin-top: 65px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        color:#C51726;
+        letter-spacing:1px;
+    }
+}
+
+.ss-sec5 {
+    margin-top: 140px;
+}
+
+.ss-sec6 {
+    width: 78%;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 95px;
+    color:#C51726;
+    .text {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        line-height: 1.9;
+    }
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 74px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .ss-sec6 {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .haitatu-logo {
+        width: 130px;
+    }
+    
+    .ss-sec2 {
+        .service-icons {
+            width: 85%;
+        }
+        .service-box {
+            width: 90%;
+        }
+        .seibi-box {
+            padding: 0 50px;
+            padding-top: 40px;
+            padding-bottom: 80px;
+        }
+    }
+
+    .com-flow-box {
+        padding-left: 50px;
+        padding-right: 50px;
+        .inner {
+            .box {
+                .side-box {
+                    h3 {
+                        margin-bottom: 20px;
+                    }
+                    .text {
+                        font-size: 15px;
+                    }
+                    .tel {
+                        margin-top: 20px;
+                    }
+                    .tel2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .ss-sec3 {
+        .box1 {
+            .item {
+                .inner {
+                    top: 7vw;
+                    .p1 {
+                        font-size: 2vw;
+                    }
+                    .p2 {
+                        font-size: 4.3vw;
+                    }
+                    .p3 {
+                        font-size: 2vw;
+                    }
+                    .p3-2 {
+                        font-size: 10px;
+                    }
+                    .p4 {
+                        font-size: 1.3vw;
+                        margin-top: 20px;
+                    }
+                }
+                .text-box {
+                    padding-left: 30px;
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+    
+    .ss-sec4 {
+        .item {
+            width: 85%;
+            .left {
+                width: 42%;
+            }
+            .right {
+                width: 54%;
+            }
+        }
+    }
+
+    .ss-sec6 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ss-sec2 {
+        padding-top: 73px;
+        .gmap {
+            margin-top: 30px;
+            width: 100%;
+            height: 550px;
+        }
+        .service-icons {
+            width: 90%;
+            margin-top: 30px;
+            display: block;
+            .left {
+                width: 100%;
+                margin-bottom: 24px;
+                .title {
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+                .box {
+                    justify-content: flex-start;
+                    .img-box {
+                        width: 11%;
+                    }
+    
+                }
+            }
+            .right {
+                width: 100%;
+                .title {
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+                .box {
+                    justify-content: flex-start;
+                    flex-wrap:wrap;
+                    .img-box {
+                        width: 11%;
+                    }
+    
+                }
+            }
+        }
+        .service-box {
+            width: 90%;
+            margin-top: 55px;
+            .title-box {
+                .img-box {
+                    width: 66px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+            .box {
+                margin-top: 17px;
+                padding-left: 0px;
+                .item {
+                    padding-top: 20px;
+                }
+            }
+        }
+        .service-box2 {
+            margin-top: 0;
+            padding: 67px 0;
+        }
+        .seibi-box {
+            width: 100%;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 74px;
+            margin-bottom: 30px;
+            .title-box {
+                margin-bottom: 33px;
+                .img-box {
+                    width: 66px;
+                    margin-right: 8px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+            .box {
+                display: block;
+                .left {
+                    width: 100%;
+                    .p1 {
+                        margin-bottom: 10px;
+                    }
+                    .p2 {
+                        font-size: 14px;
+                        margin-bottom: 51px;
+                    }
+                }
+                .right {
+                    width: 100%;
+                    margin-top: 40px;
+                }
+            }
+            .more-btn {
+                margin-top: 40px;
+            }
+        }
+    }
+
+    .com-flow-box {
+        width: 95%;
+        margin-top: 60px;
+        padding: 0 12px;
+        padding-top: 28px;
+        padding-bottom: 43px;
+        .inner {
+            .box {
+                .side-box {
+                    .logo {
+                        width: 68%;
+                        left: 60%;
+                    }
+                    h3 {
+                        font-size: 16px;
+                        margin-bottom: 23px;
+                    }
+                    .text {
+                        font-size: 14px;
+                    }
+                    .tel {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                    .tel2 {
+                        font-size: 14px;
+                        margin-top: 5px;
+                        padding-left: 0px;
+                    }
+                    .more-btn {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .ss-sec3 {
+        padding-top: 0;
+        padding-bottom: 0px;
+        .com-sec-top-img {
+            position: unset;
+            transform:unset;
+            padding-bottom: 60px;
+            width: 100%;
+        }
+        .text1 {
+            font-size: 14px;
+        }
+        .title1 {
+            margin-top: 27px;
+            font-size: 22px;
+        }
+        .box1 {
+            width: 95%;
+            margin-top: 74px;
+            .item {
+                .logo {
+                    width: 40%;
+                    top: -45px;
+                }
+                .inner {
+                    top: 5vw;
+                    .p1 {
+                        font-size: 13px;
+                        margin-bottom: 16px;
+                    }
+                    .p2 {
+                        font-size: 30px;
+                        margin-bottom: 21px;
+                    }
+                    .p3 {
+                        font-size: 16px;
+                    }
+                    .p4 {
+                        font-size: 14px;
+                        margin-top: 23px;
+                    }
+                }
+                .text-box {
+                    padding-left: 12px;
+                    padding-top: 28px;
+                    .title {
+                        font-size: 20px;
+                    }
+                    .text {
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .item2 {
+                .logo {
+                    width: 33%;
+                }
+            }
+        }
+        .houjin-banner {
+            width: 100%;
+            margin-top: 27px;
+            padding-top: 70px;
+            padding-bottom: 75px;
+            h2 {
+                font-size: 30px;
+            }
+            .p1 {
+                margin-bottom: 22px;
+            }
+            .more-btn {
+                margin-top: 24px;
+                padding: 18px 0;
+            }
+        }
+    }
+    
+    .ss-sec4 {
+        padding-top: 78px;
+        .item {
+            margin-top: 25px;
+            width: 90%;
+            flex-flow:column;
+            .left {
+                width: 100%;
+            }
+            .right {
+                width: 100%;
+                .title {
+                    font-size: 22px;
+                }
+                .text {
+                    font-size: 14px;
+                    padding: 0;
+                }
+            }
+        }
+        .item2 {
+            flex-flow:column-reverse;
+            margin-top: 23px;
+            margin-bottom: 0;
+            .right {
+                margin-top: -30px;
+            }
+        }
+        .last-text {
+            display: none;
+        }
+    }
+    
+    .ss-sec5 {
+        margin-bottom: 23px;
+        margin-top: 91px;
+    }
+    
+    .ss-sec6 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .haitatu-logo {
+        width: 100%;
+        right: 0;
+        animation: none;
+        display: block !important;
+        opacity: 1!important;
+    }
+
+    .ss-logo {
+        animation: none;
+        display: block !important;
+        opacity: 1!important;
+    }
+
+    .ss-sec1 {
+        .inner {
+            background-image: url(../images/service-station/sec1-top-sp.jpg);
+        }
+    }
+
+    .ss-common-anker-btn {
+        .item {
+            margin-right: 5%;
+        }
+    }
+
+    .ss-sec2 {
+        .service-icons {
+            .left {
+                .box {
+                    .img-box {
+                        width: 20%;
+                    }
+    
+                }
+            }
+            .right {
+                .box {
+                    margin-left: -10px;
+                    .img-box {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+        .service-box {
+            padding-bottom: 40px;
+            .box {
+                display: block;
+                .item {
+                    width: 100%;
+                    padding-bottom: 20px;
+                    padding-left: 10px;
+                    &:nth-child(3n) {
+                        margin-bottom: 27px;
+                    }
+                    .title {
+                        letter-spacing:2px;
+                        img {
+                            margin-left: 8px;
+                        }
+                    }
+                    .bd {
+                        margin-top: 10px;
+                    }
+                    .cate-box {
+                        .img-box {
+                            width: 20%;
+                        }
+                    }
+                }
+            }
+        }
+        .service-box2 {
+            margin-top: 0;
+        }
+        .seibi-box {
+            padding-top: 55px;
+            padding-left: 22px;
+            padding-right: 22px;
+        }
+    }
+
+    .com-flow-box {
+        .inner {
+            .box {
+                display: block;
+                .side-box {
+                    width: 100%;
+                    .tel2 {
+                        margin-bottom: 80px;
+                    }
+                    .logo {
+                        top: 8px;
+                    }
+                    h3 {
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+    
+    .ss-sec3 {
+        .box1 {
+            display: block;
+            .item {
+                width: 100%;
+                .logo {
+                    width: 57%;
+                }
+                .inner {
+                    top: 88px;
+                }
+            }
+            .item2 {
+                margin-top: 53px;
+                .logo {
+                    width: 46%;
+                }
+            }
+        }
+        .houjin-banner {
+            padding-top: 80px;
+        }
+    }
+    
+    .ss-sec4 {
+        .item {
+            .right {
+                .title {
+                    margin-top: 40px;
+                }
+                .text {
+                    letter-spacing: 3px;
+                }
+            }
+        }
+        .item2 {
+            .right {
+                .title {
+                    margin-top: 0;
+                }
+            }
+        }
+        .last-text {
+            display: none;
+        }
+    }
+    
+    .ss-sec5 {
+        margin-bottom: 23px;
+    }
+    
+    .ss-sec6 {
+        display: none;
+    }
+
+    .ss-sec6 {
+        .box {
+            display: block;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}

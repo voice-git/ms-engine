@@ -1,0 +1,154 @@
+.eneos {
+    padding-top: 65px;
+    // background: #E5E3E3;
+    @media screen and (max-width: 414px) {
+        padding-top: 65.5px;
+    }
+    .fv {
+        position: relative;
+        z-index: 11;
+        .logo {
+            padding-left: 23px;
+            width: 217px;
+            position: absolute;
+            top: 20px;
+            z-index: 21;
+        }
+    }
+    .content {
+        background: #fff;
+        margin: 0 auto 30px;
+        padding: 90px 0;
+        width: 100%;
+        border-bottom: solid 25px #C51726;
+        h2 {
+            font-size: 40px;
+            color: #B71524;
+            font-weight: 900;
+            font-family: "Zen Kaku Gothic New", sans-serif;
+            text-align: center;
+            img {
+                width: 178px;
+                height: 14px;
+                margin: 0 auto;
+            }
+        }
+        .sub_text {
+            font-size: 25px;
+            font-weight: 900;
+            font-family: "Zen Kaku Gothic New", sans-serif;
+            text-align: center;
+            margin: 45px 0 55px;
+        }
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1400px;
+            width: 80%;
+            margin: 0 auto;
+            .item {
+                width: 23%;
+                margin: 65px 0 0;
+                margin-right: 2.66%;
+                @media screen and (max-width: 768px){
+                    margin-right: 0;
+                }
+                &:nth-child(-n + 4){
+                    margin-top: 0;
+                }
+                &:nth-child(4n){
+                    margin-right: 0;
+                }
+                .title {
+                    font-size: 16px;
+                    color: #C51726;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .address {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+                .tel {
+                    font-size: 12px;
+                    margin-bottom: 14px;
+                }
+                .more-btn {
+                    width: 100%;
+                    font-size: 13px;
+                    font-weight: 400;
+                    padding: 5px 0;
+                    font-family: 'DIN';
+                    img {
+                        right: 5px;
+                    }
+                }
+
+                &.award {
+                    position: relative;
+                    .award_ico {
+                        position: absolute;
+                        right: 0;
+                        bottom: 50px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            margin: 0 auto 20px;
+            padding: 40px 0 65px;
+            h2 {
+                font-size: 20px;
+                img {
+                    width: 91px;
+                    height: 7px;
+                }
+            }
+            .sub_text {
+                font-size: 15px;
+                line-height: 28px;
+                margin: 30px 0 40px;
+            }
+            .box {
+                max-width: 1400px;
+                width: 85%;
+                margin: 0 auto;
+                .item {
+                    width: 46%;
+                    margin: 50px 0 0;
+                    margin-right: 8%;
+                    &:nth-child(-n + 4){
+                        margin-top: 50px;
+                    }
+                    &:nth-child(4n){
+                        margin-right: 2%;
+                    }
+                    &:nth-child(-n + 2){
+                        margin-top: 0;
+                    }
+                    &:nth-child(2n){
+                        margin-right: 0;
+                    }
+                    .title {
+                        min-height: 50px;
+                    }
+                    .address {
+                        min-height: 35px;
+                    }
+                    .more-btn {
+                        padding: 10px 0;
+                    }
+
+                    &.award {
+                        .award_ico {
+                            top: -15px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

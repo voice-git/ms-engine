@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 30 30">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+
+      .st4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="30" height="30"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="1" y="1" width="28.4589996" height="28.4589844"/>
+    </clipPath>
+  </defs>
+  <g class="st4">
+    <g id="_マスクグループ_3829" data-name="マスクグループ_3829">
+      <g id="_グループ_23671" data-name="グループ_23671">
+        <g class="st1">
+          <g id="_グループ_23670" data-name="グループ_23670">
+            <rect id="_長方形_10110" data-name="長方形_10110" class="st2" x="2.0770001" y="2.0770264" width="26.3050003" height="26.3050003" rx="3" ry="3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="_レイヤー_11" data-name="_レイヤー_1">
+    <path class="st3" d="M17.1807114,13.9006526l6.6029486-7.6767992h-2.1114949l-5.4301892,6.3119672-4.3369101-6.3119665h-5.6642124l6.851099,9.9728629-6.9146832,8.0384297h2.1114955l5.7410413-6.6735964,4.5859456,6.6735964h5.6659793s-7.1010169-10.3344927-7.1010195-10.334494ZM9.1648017,7.8174099h1.7776831l10.4002828,14.8767229h-1.7768L9.1648017,7.8174099Z"/>
+  </g>
+</svg>

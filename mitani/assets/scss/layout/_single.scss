@@ -1,0 +1,191 @@
+.single-sec2 {
+    margin-top: 0;
+    padding-top: 128px;
+    .inner {
+        .content {
+            padding-bottom: 109px;
+            .thumbnail {
+                width: 68.2%;
+                margin-bottom: 29px;
+            }
+            .date {
+                font-size: 14px;
+                margin-bottom: 9px;
+                color:#C51726;
+            }
+            .title {
+                font-size: 16px;
+                line-height: 1.5;
+                margin-bottom: 0;
+                font-weight: bold;
+                letter-spacing: 3px;
+            }
+            .cont {
+                margin-top: 28px;
+                p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+}
+
+.single-sec3 {
+    width: 100%;
+    background-color: #EAEAEA;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    .box {
+        display: flex;
+        justify-content: center;
+        .item {
+            width: 13.5%;
+            margin-right: 2%;
+            color:black;
+            .thumbnail {
+                width: 100%;
+                margin-bottom: 7px;
+                position: relative;
+                &:before {
+                    content: "";
+                    display: block;
+                    padding-top: 100%;
+                }
+                img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: auto;
+                    object-fit: cover;
+                }
+            }
+            .date {
+                font-size: 12px;
+                color:#C51726;
+                line-height: 1;
+                margin-bottom: 10px;
+            }
+            .title {
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.go-archive-btn {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 57px;
+    a {
+        width: fit-content;
+        font-size: 15px;
+        font-weight: bold;
+        color:black;
+        border-bottom: 2px solid #000;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .news-sec2-nav2 {
+        display: none;
+    }
+
+    .single-sec2 {
+        // margin-top: 40px;
+        margin-top: 0;
+        padding-top: 105px;
+        display: block;
+        .inner {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            .content {
+                padding-bottom: 81px;
+                .thumbnail {
+                    width: 100%;
+                    margin-bottom: 19px;
+                }
+                .date {
+                    font-size: 12px;
+                    margin-bottom: 3px;
+                }
+                .cont {
+                    margin-top: 15px;
+                    p {
+                        font-size: 14px;
+                        line-height: 1.7;
+                    }
+                }
+            }
+        }
+    }
+    
+    .single-sec3 {
+        padding-top: 48px;
+        padding-bottom: 55px;
+        display: flex;
+        padding-left: 6%;
+        padding-right: 6%;
+        box-sizing: border-box;
+        display: flex;
+        .news-sec2-nav {
+            width: 100px;
+            height: 380px;
+            padding-left: 0;
+            position: sticky;
+            top: 90px;
+            .nav {
+                margin-bottom: 22px;
+                color:black;
+                .p1 {
+                    font-size: 12px;
+                    line-height: 1.25;
+                    font-family: 'Zen Kaku Gothic New', sans-serif;
+                    font-weight: 900;
+                }
+                .p2 {
+                    font-size: 10px;
+                    color:#C51726;
+                }
+            }
+        }
+        .box {
+            flex:1;
+            display: block;
+            .item {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 38px;
+                .thumbnail {
+                    margin-bottom: 8px;
+                }
+                .date {
+                    margin-bottom: 7px;
+                }
+                .title {
+                    font-size: 13px;
+                    line-height: 1.4;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    
+    .go-archive-btn {
+        margin-top: 41px;
+        margin-bottom: 100px;
+    }
+}

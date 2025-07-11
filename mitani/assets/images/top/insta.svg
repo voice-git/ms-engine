@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_10109" data-name="長方形 10109" width="30" height="30" transform="translate(-7118 -6372)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_3828" data-name="マスクグループ 3828" transform="translate(7118 6372)" clip-path="url(#clip-path)">
+    <g id="グループ_23669" data-name="グループ 23669" transform="translate(-8425 -6757.425)">
+      <g id="icon_insta" transform="translate(1309 387.425)">
+        <path id="パス_3" d="M13.692.2c-3.646,0-4.1,0-5.561.091A10.473,10.473,0,0,0,4.849.929a6.658,6.658,0,0,0-3.92,3.92A8.1,8.1,0,0,0,.291,8.131C.2,9.589.2,10.045.2,13.692s0,4.1.091,5.561a10.473,10.473,0,0,0,.638,3.282,6.658,6.658,0,0,0,3.92,3.92,10.473,10.473,0,0,0,3.282.638c1.459.091,1.914.091,5.561.091s4.1,0,5.561-.091a10.473,10.473,0,0,0,3.282-.638,6.658,6.658,0,0,0,3.92-3.92,10.473,10.473,0,0,0,.638-3.282c.091-1.459.091-1.914.091-5.561s0-4.1-.091-5.561a10.473,10.473,0,0,0-.638-3.282,6.658,6.658,0,0,0-3.92-3.92A10.473,10.473,0,0,0,19.252.291C17.794.2,17.338.2,13.692.2Z" transform="translate(-0.2 -0.2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="パス_4" d="M14.315,7.4a6.915,6.915,0,1,0,6.915,6.915A6.912,6.912,0,0,0,14.315,7.4Z" transform="translate(-0.822 -0.825)" fill="#fff"/>
+        <ellipse id="楕円形_1" cx="1.638" cy="1.638" rx="1.638" ry="1.638" transform="translate(19.043 4.665)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

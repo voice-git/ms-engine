@@ -1,0 +1,229 @@
+.youtube-logo {
+    width: 210px;
+    right: 65px;
+    bottom: 0;
+}
+
+.news-sec1 {
+    .inner {
+        background-image: url(../images/news/sec1-top-img.jpg);
+    }
+}
+
+.news-sec2 {
+    margin-top: 176px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    .news-sec2-nav {
+        width: 223px;
+        padding-left: 4.8%;
+        box-sizing: border-box;
+        .nav {
+            margin-bottom: 35px;
+            color:black;
+            .p1 {
+                font-size: 16px;
+                font-weight: 900;
+                font-family: 'Zen Kaku Gothic New', sans-serif;
+                line-height: 1.5;
+                margin-bottom: 4px;
+            }
+            .p2 {
+                font-size: 14px;
+                color:#C51726;
+                line-height: 1;
+            }
+        }
+    }
+    .inner {
+        padding-left: 6%;
+        padding-right: 3%;
+        box-sizing: border-box;
+        flex:1;
+        .box {
+            display: flex;
+            flex-wrap:wrap;
+            // 内容非公開時
+            //justify-content: center;
+            // 内容非公開時
+            .item {
+                width: 30%;
+                margin-bottom: 40px;
+                color:black;
+                margin-right: 5%;
+                .thumbnail {
+                    width: 100%;
+                    position: relative;
+                    margin-bottom: 13px;
+                    &:before {
+                        content: "";
+                        display: block;
+                        padding-top: 100%;
+                    }
+                    img {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        margin: auto;
+                        object-fit: cover;
+                    }
+                }
+                .date {
+                    font-size: 14px;
+                    color:#C51726;
+                    line-height: 1;
+                    margin-bottom: 9px;
+                }
+                .title {
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 1.5;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    letter-spacing: 2px;
+                }
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+            .text-box {
+                padding-right: 7.5vw;
+                .text1 {
+                    text-align: center;
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    margin-top: 150px;
+                    font-weight: bold;
+                }
+                .text2 {
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .pagenation-box {
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 50px;
+            .p-blog__pager {
+                .page-numbers {
+                    margin: 0;
+                    padding: 0;
+                    list-style:none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    li {
+                        margin: 0 15px;
+                        .page-numbers {
+                            font-size: 18px;
+                            color:#a6a6a6;
+                        }
+                        .current {
+                            color:black;
+                        }
+                        .prev {
+                            margin-right: 10px;
+                            width: 9px;
+                            transform: rotate(180deg);
+                            padding-bottom: 2px;
+                        }
+                        .next {
+                            margin-left: 10px;
+                            width: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .youtube-logo {
+        width: 100%;
+        right: 0;
+    }
+    
+    .news-sec1 {
+        .inner {
+            background-image: url(../images/news/sec1-top-img-sp.jpg);
+        }
+    }
+    
+    .news-sec2 {
+        margin-top: 100px;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        .news-sec2-nav {
+            width: 100px;
+            height: 450px;
+            padding-left: 0;
+            position: sticky;
+            top: 90px;
+            .nav {
+                margin-bottom: 22px;
+                .p1 {
+                    font-size: 12px;
+                    line-height: 1.25;
+                }
+                .p2 {
+                    font-size: 10px;
+                }
+            }
+        }
+        .inner {
+            padding-left: 1%;
+            padding-right: 0;
+            .box {
+                .item {
+                    width: 100%;
+                    margin-bottom: 36px;
+                    margin-right: 0;
+                    .thumbnail {
+                        margin-bottom: 8px;
+                    }
+                    .date {
+                        font-size: 12px;
+                        margin-bottom: 7px;
+                    }
+                    .title {
+                        font-size: 13px;
+                        line-height: 1.55;
+                    }
+                }
+            }
+            .pagenation-box {
+                margin-top: 0px;
+                .p-blog__pager {
+                    .page-numbers {
+                        li {
+                            margin: 0 12px;
+                            .page-numbers {
+                                font-size: 16px;
+                            }
+                            .prev {
+                                width: 10px;
+                                padding-bottom: 2px;
+                                margin-right: 5px;
+                            }
+                            .next {
+                                width: 10px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

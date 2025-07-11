@@ -1,0 +1,338 @@
+.shituji-arc-sec1 {
+    padding-top: 65px;
+    .inner {
+        padding-top: 120px;
+        padding-bottom: 131px;
+        .inner-bg {
+            position: absolute;
+            left: 50%;
+            width: 80%;
+            transform:translate(-50%,0);
+            z-index:-1;
+        }
+        h2 {
+            font-size: 40px;
+            margin: 0;
+            text-align: center;
+            font-weight: 900;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            line-height: 1;
+            margin-bottom: 40px;
+            padding-top: 10px;
+        }
+        .sec1-first-text {
+            font-size: 16px;
+            line-height: 2.2;
+            text-align: center;
+            font-weight: bold;
+        }
+        .archive-box {
+            margin-top: 80px;
+            display: flex;
+            flex-wrap:wrap;
+            .item {
+                width: 30%;
+                margin-right: 5%;
+                position: relative;
+                margin-bottom: 55px;
+                color:black;
+                .chara {
+                    position: absolute;
+                    width: auto;
+                    height: 11.7vw;
+                    max-height: 170px;
+                    top: 94px;
+                    right: -10px;
+                    z-index:2;
+                    img {
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+                .cate {
+                    font-size: 16px;
+                    color:white;
+                    background-color: #C51726;
+                    padding: 6px 14px;
+                    width: fit-content;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    font-weight: 500;
+                    z-index:2;
+                }
+                .thumbnail {
+                    width: 100%;
+                    margin-bottom: 22px;
+                    height: 17.2vw;
+                    max-height: 240px;
+                    position: relative;
+                    img {
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .date {
+                    font-size: 13px;
+                    text-align: center;
+                    padding: 4px 13px;
+                    color:white;
+                    background-color: black;
+                    width: fit-content;
+                    margin-bottom: 20px;
+                }
+                .title {
+                    font-size: 18px;
+                    font-weight: 900;
+                    font-family: 'Zen Kaku Gothic New', sans-serif;
+                    line-height: 1.4;
+                    margin-bottom: 18px;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                }
+                .text {
+                    font-size: 14px;
+                    line-height: 2;
+                    color:#3F3637;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                }
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+        }
+        .pagenation-box {
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 50px;
+            .p-blog__pager {
+                .page-numbers {
+                    margin: 0;
+                    padding: 0;
+                    list-style:none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    li {
+                        margin: 0 15px;
+                        .page-numbers {
+                            font-size: 18px;
+                            color:#a6a6a6;
+                        }
+                        .current {
+                            color:black;
+                        }
+                        .prev {
+                            margin-right: 0;
+                            width: 13px;
+                            transform: rotate(180deg);
+                            padding-bottom: 4px;
+                        }
+                        .next {
+                            margin-left: 0;
+                            width: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.front {
+        .inner {
+            padding: 0;
+            width: 80%;
+            margin: 0 auto;
+            .more-btn {
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+
+.shituji-arc-sec2 {
+    background-color: #F4F4F4;
+    padding-top: 94px;
+    padding-bottom: 82px;
+    h2 {
+        text-align: center;
+        font-weight: 900;
+        font-size: 35px;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        margin-bottom: 135px;
+    }
+    .box {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        .item {
+            width: 47.5%;
+            position: relative;
+            margin-bottom: 90px;
+            background-color: #fff;
+            .bg {
+                width: 45px;
+                position: absolute;
+                bottom: 0;
+                left: 75%;
+                transform:translate(-50%,100%);
+            }
+            .logo {
+                position: absolute;
+                width: 28%;
+                top: -25px;
+                left: 50%;
+                transform:translate(-50%,0);
+            }
+            .inner {
+                width: 100%;
+                padding: 60px 55px 75px 55px;
+                box-sizing: border-box;
+                .title {
+                    font-size: 22px;
+                    font-weight: 900;
+                    font-family: 'Zen Kaku Gothic New', sans-serif;
+                    line-height: 1.6;
+                    text-align: center;
+                    margin-bottom: 31px;
+                    color:#3F3637;
+                }
+                .text {
+                    font-size: 15px;
+                    line-height: 1.6;
+                    color:#3F3637;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    // header {
+    //     z-index:11;
+    // }
+
+    .shituji-arc-sec1 {
+        .inner {
+            padding-top: 70px;
+            padding-bottom: 65px;
+            .inner-bg {
+                width: 88%;
+            }
+            h2 {
+                font-size: 28px;
+                margin-bottom: 24px;
+                padding-top: 65px;
+            }
+            .sec1-first-text {
+                font-size: 14px;
+                line-height: 1.7;
+                width: 88%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+            }
+            .archive-box {
+                margin-top: 40px;
+                .item {
+                    width: 88%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 60px;
+                    .chara {
+                        height: 157px;
+                        top: 100px;
+                    }
+                    .thumbnail {
+                        max-height: unset;
+                        height: 242px;
+                    }
+                    .date {
+                        margin-bottom: 15px;
+                    }
+                    .title {
+                        font-size: 16px;
+                        line-height: 1.6;
+                        margin-bottom: 12px;
+                    }
+                    .text {
+                        width: 100%;
+                        -webkit-line-clamp: 3;
+                    }
+                    &:nth-child(3n) {
+                        margin-right: auto;
+                    }
+                }
+            }
+            .pagenation-box {
+                margin-top: 0px;
+                .p-blog__pager {
+                    .page-numbers {
+                        li {
+                            margin: 0 12px;
+                            .page-numbers {
+                                font-size: 16px;
+                            }
+                            .prev {
+                                width: 10px;
+                                padding-bottom: 2px;
+                            }
+                            .next {
+                                width: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.front {
+            .inner {
+                width: 100%;
+                .more-btn {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    
+    .shituji-arc-sec2 {
+        padding-top: 45px;
+        padding-bottom: 90px;
+        margin-bottom: 65px;
+        h2 {
+            font-size: 25px;
+            margin-bottom: 70px;
+        }
+        .box {
+            width: 90%;
+            .item {
+                width: 100%;
+                margin-bottom: 70px;
+                .bg {
+                    left: 80%;
+                }
+                .logo {
+                    width: 145px;
+                }
+                .inner {
+                    padding: 80px 18px 54px 18px;
+                    .title {
+                        font-size: 17px;
+                        margin-bottom: 28px;
+                    }
+                    .text {
+                        font-size: 14px;
+                        line-height: 1.8;
+                    }
+                }
+            }
+        }
+    }
+}

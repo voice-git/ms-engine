@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.shituji-single-sec1 .inner h2 {
+  margin: 0;
+  margin-bottom: 55px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 凸版文久見出しゴシック StdN;
+  line-height: 1;
+}
+
+.shituji-single-sec1 .inner .bd-box {
+  width: 100%;
+  border: 4px solid #C51726;
+  padding: 73px 10.5% 128px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shituji-single-sec1 .inner .bd-box .chara {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.shituji-single-sec1 .inner .bd-box .cate {
+  padding: 4px 18px;
+  color: white;
+  background-color: #C51726;
+  margin-bottom: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.shituji-single-sec1 .inner .bd-box h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  font-family: 凸版文久見出しゴシック StdN;
+  margin-bottom: 20px;
+}
+
+.shituji-single-sec1 .inner .bd-box .date {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1;
+  color: #A0A0A0;
+  padding-bottom: 37px;
+  border-bottom: 1px dotted #3F3637;
+}
+
+.shituji-single-sec1 .inner .bd-box .content {
+  margin-top: 35px;
+}
+
+.shituji-single-sec1 .inner .bd-box .content p {
+  font-size: 16px;
+  line-height: 2.2;
+}
+
+.shituji-single-sec1 .inner .bd-box .content .img-box {
+  width: 75%;
+  margin-bottom: 19px;
+}
+
+.shituji-single-sec1 .inner .more-btn {
+  margin: 0 auto;
+  margin-top: 83px;
+}
+
+@media screen and (max-width: 768px) {
+  .shituji-single-sec1 .inner {
+    padding-top: 108px;
+  }
+  .shituji-single-sec1 .inner h2 {
+    font-size: 28px;
+  }
+  .shituji-single-sec1 .inner .bd-box {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #C51726;
+    padding: 34px 7.5% 48px;
+  }
+  .shituji-single-sec1 .inner .bd-box .chara {
+    width: 108px;
+    margin-bottom: 19px;
+  }
+  .shituji-single-sec1 .inner .bd-box .cate {
+    font-size: 14px;
+  }
+  .shituji-single-sec1 .inner .bd-box h2 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .shituji-single-sec1 .inner .bd-box .date {
+    padding-bottom: 17px;
+  }
+  .shituji-single-sec1 .inner .bd-box .content {
+    margin-top: 42px;
+  }
+  .shituji-single-sec1 .inner .bd-box .content p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .shituji-single-sec1 .inner .bd-box .content .img-box {
+    width: 100%;
+    margin-bottom: 9px;
+  }
+  .shituji-single-sec1 .inner .more-btn {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+}
+/*# sourceMappingURL=shituji-single.css.map */

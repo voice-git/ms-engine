@@ -1,0 +1,449 @@
+.seibi-haitatu-logo {
+    z-index:10;
+}
+
+.seibi-sec1 {
+    background-color: unset;
+    z-index:9;
+    position: relative;
+    .gzone {
+        background-color: #E8E8E8;
+        height: 543px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index:-1;
+    }
+    .scroll-img {
+        width: 18px;
+        position: absolute;
+        top: 227px;
+        right: 23px;
+    }
+    .logo {
+        opacity:0;
+        width: 217px;
+    }
+    .bg {
+        width: 50%;
+        background-color: black;
+        height: 17vw;
+        position: absolute;
+        top: 357px;
+        right: 0;
+    }
+    .inner {
+        background-image:unset;
+        top: 0;
+        margin: 0 65px;
+        background-color: #fff;
+        padding: 0 84px;
+        padding-top: 124px;
+        box-sizing: border-box;
+        z-index:9;
+        position: relative;
+        h1 {
+            font-size: 30px;
+            font-weight: 900;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            line-height: 1;
+            margin-bottom: 25px;
+            padding: 0;
+        }
+        .imgs-box {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .left {
+                width: 74.8%;
+                height: 39.9vw;
+                position: relative;
+                img {
+                    display: none;
+                    transition:.3s;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .current {
+                    display: block;
+                    transition:.3s;
+                }
+            }
+            .right {
+                width: 24%;
+                .img-box {
+                    width: 100%;
+                    margin-bottom: .75vw;
+                    position: relative;
+                    height: 12.8vw;
+                    cursor:pointer;
+                    &:empty {
+                        display: none;
+                    }
+                    img {
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .right-sp {
+                display: none;
+            }
+        }
+    }
+}
+
+.seibi-sec3 {
+    margin: 0 150px;
+    margin-top: 44px;
+    .first-title {
+        font-size: 22px;
+        font-weight: bold;
+        color:#C51726;
+    }
+    .first-text {
+        margin-top: 15px;
+        line-height: 2;
+        font-size: 16px;
+        width: 685px;
+        letter-spacing:1.5px;
+        margin-bottom: 75px;
+    }
+    .box {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        &::after {
+            display: block;
+            content: '';
+            width: 31.5%;
+        }
+        .item {
+            width: 31.5%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 86px;
+            .img-box {
+                width: 100%;
+            }
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+                color:#C51726;
+                line-height: 1;
+                margin-top: 21px;
+                margin-bottom: 16px;
+            }
+            .text {
+                font-size: 14px;
+                line-height: 2;
+            }
+            .more-btn {
+                margin-top: 25px;
+                margin-bottom: 0;
+                width: 100%;
+            }
+            .more-btn-mt {
+                margin-top: 70px;
+            }
+        }
+    }
+}
+
+.seibi-sec4 {
+    margin: 0 150px;
+    margin-top: 144px;
+    .title1 {
+        font-size: 20px;
+        font-weight: bold;
+        color:#C51726;
+        margin-bottom: 35px;
+        line-height: 1;
+    }
+    .box {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        .left {
+            width: 44%;
+            .detail {
+                font-size: 16px;
+                line-height: 1.9;
+            }
+        }
+        .right {
+            width: 50%;
+            iframe {
+                width: 100%;
+                height: 33vw;
+            }
+        }
+    }
+}
+
+
+.manager-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    padding: 45px 40px;
+    box-sizing: border-box;
+    .left2 {
+        width: 37%;
+    }
+    .right2 {
+        width: 57%;
+        .p1 {
+            font-size: 10px;
+            line-height: 1;
+            color:#C51726;
+            margin-bottom: 20px;
+        }
+        .p2 {
+            font-size: 14px;
+            margin-bottom: 22px;
+            white-space:nowrap;
+            line-height: 25px;
+        }
+        .p3 {
+            font-size: 13px;
+            line-height: 1.7;
+        }
+    }
+}
+
+.seibi-sec5 {
+    margin: 0 150px;
+    margin-top: 90px;
+    .title1 {
+        font-size: 20px;
+        font-weight: bold;
+        color:#C51726;
+        margin-bottom: 45px;
+        line-height: 1;
+    }
+    .box {
+        display: flex;
+        justify-content: space-between;
+        a {
+            width: 49.3%;
+        }
+    }
+}
+
+.seibi-sec6 {
+    margin-top: 170px;
+}
+
+@media screen and (max-width: 1025px) {
+    .seibi-sec1 {
+        .inner {
+            .text {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .seibi-sec1 {
+        .inner {
+            padding-left: 0px;
+            padding-right: 0px;
+            h1 {
+                font-size: 26px;
+            }
+        }
+    }
+    
+    .seibi-sec3 {
+        margin: 0 65px;
+        margin-top: 42px;
+        .first-text {
+            font-size: 14px;
+            width: 100%;
+            margin-bottom: 65px;
+        }
+        .box {
+            .item {
+                .more-btn {
+                    margin-top: 35px;
+                }
+                .more-btn-mt {
+                    margin-top: 62px;
+                }
+                &:first-child {
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+    
+    .seibi-sec4 {
+        margin: 0 65px;
+        margin-top: 120px;
+        .title1 {
+            margin-bottom: 10px;
+        }
+        .box {
+            .left {
+                width: 47%;
+                .detail {
+                    font-size: 14px;
+                }
+            }
+            .right {
+                width: 50%;
+                iframe {
+                    width: 100%;
+                    height: 33vw;
+                }
+            }
+        }
+    }
+
+    .manager-box {
+        margin-top: 23px;
+        padding: 33px 14px;
+        .left2 {
+            width: 40%;
+        }
+        .right2 {
+            width: 56%;
+            .p2 {
+                margin-bottom: 14px;
+                font-size: 13px;
+                letter-spacing: 1px;
+            }
+            .p3 {
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .seibi-sec5 {
+        margin: 0 65px;
+        margin-top: 110px;
+        .title1 {
+            display: none;
+        }
+        .box {
+            display: block;
+            justify-content: space-between;
+            a {
+                width: 100%;
+                margin-bottom: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .seibi-haitatu-logo {
+        z-index:11;
+    }
+
+    .seibi-sec1 {
+        z-index:10;
+        .inner {
+            padding-top: 40px;
+            width: 100%;
+            margin: 0;
+            h1 {
+                padding-top: 48px;
+                padding-bottom: 26px;
+                padding-left: 25px;
+                margin: 0;
+                line-height: 1.5;
+            }
+            .imgs-box {
+                display: block;
+                .left {
+                    width: 100%;
+                    height: 100vw;
+                }
+                .right-sp {
+                    width: 88%;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    .img-box {
+                        width: 31.5%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .seibi-sec3 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
+        margin-top: 35px;
+        .first-title {
+            line-height: 1.7;
+        }
+        .first-text {
+            margin-top: 15px;
+        }
+        .box {
+            .item {
+                width: 100%;
+                margin-bottom: 70px;
+                .more-btn-mt {
+                    margin-top: 35px;
+                }
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+                &:first-child {
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+    
+    .seibi-sec4 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
+        .box {
+            display: block;
+            .left {
+                width: 100%;
+            }
+            .right {
+                width: 100%;
+                margin-top: 31px;
+                iframe {
+                    height: 85vw;
+                }
+            }
+        }
+    }
+    
+    .seibi-sec5 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
+        .box {
+            display: block;
+            justify-content: space-between;
+            a {
+                width: 100%;
+                margin-bottom: 13px;
+            }
+        }
+    }
+
+    .seibi-sec6 {
+        margin-top: 74px;
+    }
+}

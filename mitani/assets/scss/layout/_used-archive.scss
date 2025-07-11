@@ -1,0 +1,315 @@
+.used-sec1 {
+    background-color: #fff;
+    .gzone {
+        margin-top: 185px;
+        height: 355px;
+    }
+    .inner {
+        position: relative;
+        padding-top: 100px;
+        .inner-bg {
+            position: absolute;
+            width: 80%;
+            left: 50%;
+            top: 55%;
+            transform:translate(-50%,-50%);
+            z-index:-1;
+        }
+        .top-rtitle {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 900;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            color:#C51726;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .recom-car-box {
+            display: flex;
+            justify-content: space-between;
+            .item {
+                width: 31%;
+                color:black;
+                .title {
+                    margin-top: 20px;
+                    font-weight: 900;
+                    font-family: 'Zen Kaku Gothic New', sans-serif;
+                    font-size: 28px;
+                    margin-bottom: 10px;
+                }
+                .text {
+                    font-size: 14px;
+                    line-height: 2;
+                    span {
+                        font-size: 26px;
+                        line-height: 0.8;
+                        color:#C51726; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+.used-sec2 {
+    margin: 0 150px;
+    margin-top: 135px;
+    .cars-box {
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: flex-start;
+        .item {
+            width: 22%;
+            margin-right: 4%;
+            margin-bottom: 100px;
+            .main-img {
+                width: 100%;
+            }
+            .title {
+                font-size: 19px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                font-weight: 900;
+                font-family: 'Zen Kaku Gothic New', sans-serif;
+            }
+            .text {
+                font-size: 12px;
+                line-height: 1.8;
+                span {
+                    font-size: 21px;
+                    color:#C51726;
+                    line-height: 0.8;
+                }
+            }
+            .more-btn {
+                width: 100%;
+                padding: 12px 0;
+                margin-top: 50px;
+                margin-bottom: 0;
+                border: 2px solid #C51726;
+            }
+            &:nth-child(4n) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .pagenation-box {
+        width: fit-content;
+        margin: 0 auto;
+        .p-blog__pager {
+            .page-numbers {
+                margin: 0;
+                padding: 0;
+                list-style:none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                li {
+                    margin: 0 8px;
+                    .page-numbers {
+                        font-size: 17px;
+                        color:black;
+                    }
+                    .prev {
+                        margin-right: 40px;
+                        width: 16px;
+                    }
+                    .next {
+                        margin-left: 40px;
+                        width: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pagenation-box1 {
+        padding-left: 72px;
+    }
+
+    .pagenation-box2 {
+        .page-numbers {
+            li {
+                &:last-child {
+                    padding-right: 72px;
+                }
+                .next {
+                    margin-right: -56px;
+                }
+                .prev {
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}
+
+.used-sec4 {
+    margin-bottom: 30px;
+    margin-top: 280px;
+}
+
+.archive-used-sec2 {
+    margin: 0 65px;
+    padding: 0 85px;
+    margin-top: 0;
+    padding-top: 85px;
+    background-color: #fff;
+    z-index:9;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .used-sec1 {
+        .gzone {
+            margin-top: 150px;
+            height: 300px;
+        }
+        .inner {
+            .inner-bg {
+                width: 100%;
+            }
+            .top-rtitle {
+                font-size: 26px;
+                line-height: 1.2;
+            }
+            .recom-car-box {
+                .item {
+                    width: 31.5%;
+                    .title {
+                        margin-top: 17px;
+                        font-size: 22px;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .used-sec2 {
+        margin: 0 65px;
+        margin-top: 93px;
+        .cars-box {
+            .item {
+                width: 49%;
+                margin-right: 2%;
+                margin-bottom: 45px;
+                .title {
+                    font-size: 12px;
+                    margin-top: 15px;
+                    margin-bottom: 3px;
+                }
+                .text {
+                    font-size: 11px;
+                    line-height: 1.5;
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                .more-btn {
+                    margin-top: 15px;
+                }
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .archive-used-sec2 {
+        margin: 0;
+        padding: 0 22px;
+        margin-top: 0;
+        padding-top: 40px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .used-sec4 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .used-sec1 {
+        z-index:9;
+        .gzone {
+            display: none;
+        }
+        .inner {
+            .inner-bg {
+                top: 10%;
+            }
+            .recom-car-box {
+                display: block;
+                .item {
+                    width: 88%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 38px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    .used-sec2 {
+        margin: 0 auto;
+        width: 88%;
+        margin-top: 93px;
+        .cars-box {
+            .item {
+                width: 48.5%;
+                margin-right: 3%;
+                .title {
+                    margin-bottom: 6px;
+                }
+                .more-btn {
+                    font-size: 12px;
+                    img {
+                        width: 12px;
+                        height: 12px;
+                        right: 10px;
+                    }
+                }
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .pagenation-box {
+            max-width: 88%;
+            margin-top: 25px;
+            .p-blog__pager {
+                .page-numbers {
+                    li {
+                        .page-numbers {
+                            font-size: 21px;
+                        }
+                        .prev {
+                            margin-right: 30px;
+                        }
+                        .next {
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .archive-used-sec2 {
+        width: 100%;
+        padding-top: 40px;
+        margin-top: 0;
+    }
+    
+    .used-sec4 {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,404 @@
+.youtube-logo {
+    position: fixed;
+    z-index:30;
+    bottom: 0;
+    right: 65px;
+    width: 220px;
+}
+
+.active-ss-logo {
+    z-index:9;
+}
+
+.common-sec1 {
+    position: relative;
+    z-index:15;
+    width: 100%;
+    background-color: #fff;
+    top: 65px;
+    @media screen and (max-width: 414px) {
+        top: 65.5px;
+    }
+    .scroll-img {
+        width: 18px;
+        position: absolute;
+        top: 227px;
+        right: 23px;
+    }
+    .logo {
+        padding-left: 23px;
+        width: 217px;
+        position: relative;
+        z-index:21;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .bg {
+        background-color: black;
+        height: 230px;
+        width: 100%;
+        margin-top: 286px;
+    }
+    .inner {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-image: url(../images/mitani-policy/sec1-top.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        transform:translate(-50%,0);
+        h1 {
+            font-size: 52px;
+            text-align: center;
+            font-weight: 900;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            padding-top: 240px;
+            padding-bottom: 260px;
+            color:white;
+            margin: 0;
+        }
+    }
+}
+
+.mpolicy-sec2 {
+    margin-top: 180px;
+    position: relative;
+    z-index:1;
+    .title-img {
+        width: 812px;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 2;
+        font-weight: 900;
+        text-align: center;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        margin-top: 65px;
+        margin-bottom: 60px;
+    }
+    .text {
+        font-size: 22px;
+        text-align: center;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-weight: 900;
+        line-height: 2.7;
+        .red {
+            color:#C51726;
+        }
+        .green {
+            color:#218A4F;
+        }
+        .blue {
+            color:#2C4582;
+        }
+        .dots {
+            position: relative;
+            span {
+                &:before {
+                    content: "・";
+                    position: absolute;
+                    top: -1.7em;
+                    color:black;
+                }
+                &:nth-child(2n) {
+                    &:before {
+                        left: 50%;
+                        transform:translate(-50%,0);
+                    }
+                }
+                &:last-child {
+                    &:before {
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg1 {
+    position: absolute;
+    width: 100%;
+    top: 1370px;
+}
+
+.mpolicy-sec3 {
+    margin-top: 317px;
+    position: relative;
+    .bg {
+        width: 78%;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 33px;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        line-height: 1;
+        margin-bottom: 35px;
+    }
+    .bg {
+        width: 78%;
+        margin: 0 auto;
+        position: relative;
+        .box {
+            position: absolute;
+            width: 90%;
+            top: 50%;
+            left: 53%;
+            transform:translate(-50%,-50%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @keyframes yura {
+                0% {
+                    transform: translateY(0) rotate(1.5deg)
+                }
+            
+                5% {
+                    transform: translateY(0) rotate(-1.1deg)
+                }
+            
+                10% {
+                    transform: translateY(0) rotate(1.1deg)
+                }
+            
+                15% {
+                    transform: translateY(0) rotate(-1.2deg)
+                }
+            
+                20% {
+                    transform: translateY(0) rotate(2deg)
+                }
+            
+                25% {
+                    transform: translateY(0) rotate(-2deg)
+                }
+            
+                100%,30%,35%,50% {
+                    transform: translateY(0) rotate(0)
+                }
+            }
+            .left {
+                width: 43%;
+                animation: yura 2s ease infinite;
+            }
+            .right {
+                width: 48%;
+                p {
+                    font-size: 18px;
+                    line-height: 2;
+                    font-weight: 900;
+                    font-family: 'Zen Kaku Gothic New', sans-serif;
+                }
+            }
+        }
+    }
+}
+
+.mpolicy-sec4 {
+    margin-top: 40px;
+    .img-box {
+        width: 100%;
+    }
+}
+
+.mpolicy-sec5 {
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1025px) {
+    .mpolicy-sec2 {
+        .title-img {
+            width: 630px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .youtube-logo {
+        right: 55px;
+        width: 180px;
+    }
+    
+    .common-sec1 {
+        .scroll-img {
+            width: 15px;
+            top: 200px;
+            right: 10px;
+        }
+        .logo {
+            padding-left: 18px;
+            width: 190px;
+        }
+        .bg {
+            height: 200px;
+            margin-top: 250px;
+        }
+        .inner {
+            h1 {
+                font-size: 35px;
+                padding-top: 210px;
+                padding-bottom: 210px;
+            }
+        }
+    }
+    
+    .mpolicy-sec2 {
+        margin-top: 160px;
+        .title-img {
+            width: 75%;
+        }
+        .title {
+            font-size: 3.6vw;
+            margin-top: 50px;
+            margin-bottom: 45px;
+        }
+        .text {
+            font-size: 18px;
+            line-height: 2.5;
+            .dots {
+                background-position: top left -1.1rem;
+            }
+        }
+    }
+    
+    .bg1 {
+        position: absolute;
+        width: 100%;
+        top: 1150px;
+    }
+    
+    .mpolicy-sec3 {
+        margin-top: 120px;
+        .bg {
+            width: 90%;
+        }
+        .title {
+            font-size: 4.5vw;
+        }
+        .bg {
+            width: 90%;
+            .box {
+                .right {
+                    p {
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+    }
+    
+    .mpolicy-sec5 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .youtube-logo {
+        width: 100%;
+        bottom: 0px;
+        right: 0;
+    }
+
+    .common-sec1 {
+        .scroll-img {
+            display: none;
+        }
+        .logo {
+            display: none;
+        }
+        .bg {
+            display: none;
+        }
+        .inner {
+            width: 100%;
+            position: unset;
+            transform:unset;
+            background-image: url(../images/mitani-policy/sec1-top-sp.jpg);
+            h1 {
+                font-size: 34px;
+                padding-top: 310px;
+                padding-bottom: 310px;
+            }
+        }
+    }
+
+    .mpolicy-sec2 {
+        margin-top: 120px;
+        .title-img {
+            width: 88%;
+        }
+        .title {
+            font-size: 20px;
+            margin-top: 27px;
+            margin-bottom: 55px;
+            line-height: 2;
+        }
+        .text {
+            line-height: 2.2;
+            .dots {
+                span {
+                    &:before {
+                        top: -1.5em;
+                    }
+                }
+            }
+        }
+    }
+    
+    .bg1 {
+        top: 1000px;
+    }
+    
+    .mpolicy-sec3 {
+        margin-top: 145vw;
+        margin-bottom: 55vw;
+        .title {
+            font-size: 26px;
+        }
+        .bg {
+            width: 100%;
+            .box {
+                display: block;
+                width: 100%;
+                top: 75%;
+                left: 50%;
+                .left {
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-right: 30px;
+                }
+                .right {
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin-top: 5px;
+                    padding: 0 25px 0 35px;
+                    position: relative;
+                    z-index: 1;
+                    p {
+                        font-size: 13px;
+                        line-height: 1.9;
+                        letter-spacing:1px;
+                    }
+                }
+            }
+        }
+    }
+
+    .mpolicy-sec4 {
+        .img-box {
+            margin-top: -100px;
+        }
+    }
+    
+    .mpolicy-sec5 {
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+}

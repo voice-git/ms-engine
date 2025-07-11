@@ -1,0 +1,644 @@
+.rakuten {
+    padding-top: 65px;
+    background: #E5E3E3;
+    @media screen and (max-width: 414px) {
+        padding-top: 65.5px;
+    }
+    .fv {
+        position: relative;
+        z-index: 11;
+        .logo {
+            padding-left: 23px;
+            width: 217px;
+            position: absolute;
+            top: 20px;
+            z-index: 21;
+        }
+    }
+    .point {
+        h1 {
+            font-family: "Zen Kaku Gothic New", sans-serif;
+            font-size: 54px;
+            text-align: center;
+            margin-top: 130px;
+            margin-bottom: 140px;
+            .red {
+                color: #B81928;
+                font-size: 106px;
+                font-family: DIN;
+                position: relative;
+                .min {
+                    font-size: 54px;
+                    font-family: "Zen Kaku Gothic New", sans-serif;
+                }
+                &::after {
+                    position: absolute;
+                    content: '';
+                    background: url(./../images/rakuten-inspection/under.png) no-repeat;
+                    background-size: contain;
+                    bottom: -10px;
+                    left: 0;
+                    width: 164px;
+                    height: 13px;
+                }
+            }
+        }
+
+        .point_sec {
+            margin-bottom: 150px;
+            position: relative;
+            .img {
+                width: 60%;
+            }
+            .text_box {
+                border: 6px solid #B71524;
+                background: rgba(255, 255, 255, 0.8);
+                padding: 30px 45px 50px;
+                position: absolute;
+                .box_inner {
+                    position: relative;
+                    .num {
+                        color: #B81928;
+                        font-size: 96px;
+                        font-weight: bold;
+                        font-family: 'DIN';
+                        position: relative;
+                        text-align: center;
+                        &::after {
+                            position: absolute;
+                            content: '';
+                            background: url(./../images/rakuten-inspection/under.png) no-repeat;
+                            background-size: contain;
+                            bottom: 3px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 97px;
+                            height: 8px;
+                        }
+                    }
+                    .title {
+                        font-size: 30px;
+                        font-weight: bold;
+                        margin: 30px 0 20px;
+                    }
+                    .text {
+                        font-size: 17px;
+                        line-height: 32px;
+                    }
+                    img {
+                        position: absolute;
+                        width: 20%;
+                        right: 15px;
+                        bottom: -65px;
+                    }
+                }
+            }
+
+            &.point1 {
+                .text_box {
+                    top: 30px;
+                    right: 50%;
+                    transform: translateX(100%);
+                }
+            }
+
+            &.point2 {
+                .img {
+                    margin-left: auto;
+                }
+                .text_box {
+                    top: 30px;
+                    left: 50%;
+                    transform: translateX(-100%);
+                    .box_inner {
+                        img {
+                            right: -45px;
+                            bottom: -75px;
+                        }
+                    }
+                }
+            }
+
+            &.point3 {
+                margin-bottom: 350px;
+                .img {
+                    margin: 0 auto;
+                    width: 80%;
+                }
+                .text_box {
+                    padding: 30px 150px 50px;
+                    top: 60%;
+                    right: 50%;
+                    transform: translateX(50%);
+                    .box_inner {
+                        img {
+                            width: 25%;
+                            right: -45%;
+                            bottom: -75px;
+                        }
+                    }
+                }
+            }
+
+            &.point4 {
+                .text_box {
+                    top: 30px;
+                    right: 50%;
+                    transform: translateX(100%);
+                    .box_inner {
+                        img {
+                            right: -8%;
+                            bottom: -120px;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            overflow: hidden;
+            h1 {
+                font-size: 27px;
+                line-height: 50px;
+                margin-top: 70px;
+                margin-bottom: 50px;
+                .red {
+                    font-size: 61px;
+                    .min {
+                        font-size: 27px;
+                    }
+                    &::after {
+                        width: 95px;
+                        height: 8px;
+                        bottom: 0;
+                    }
+                }
+            }
+    
+            .point_sec {
+                margin-bottom: 100px;
+                position: relative;
+                .img {
+                    width: 100%;
+                }
+                .text_box {
+                    padding: 30px 35px 50px;
+                    position: relative;
+                    .box_inner {
+                        position: relative;
+                        .num {
+                            font-size: 53px;
+                            &::after {
+                                width: 54px;
+                                height: 5px;
+                            }
+                        }
+                        .title {
+                            font-size: 20px;
+                            margin: 30px 0 20px;
+                        }
+                        .text {
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                        img {
+                            position: absolute;
+                            width: 23%;
+                            right: 15px;
+                            bottom: -95px;
+                        }
+                    }
+                }
+    
+                &.point1 {
+                    .text_box {
+                        transform: none;
+                        top: 0;
+                        right: 0;
+                        margin: -60px -30px 0 30px;
+                    }
+                }
+    
+                &.point2 {
+                    display: flex;
+                    flex-direction: column;
+                    .text_box {
+                        transform: none;
+                        top: 0;
+                        left: 0;
+                        margin: -60px 30px 0 -30px;
+                        order: 2;
+                        .box_inner {
+                            img {
+                                right: -50px;
+                                bottom: 50px;
+                            }
+                        }
+                    }
+                }
+    
+                &.point3 {
+                    margin-bottom: 100px;
+                    .img {
+                        width: 100%;
+                    }
+                    .text_box {
+                        padding: 30px 15px 50px;
+                        transform: none;
+                        top: 0;
+                        right: 0;
+                        margin: -60px auto 0;
+                        width: 76%;
+                        .box_inner {
+                            img {
+                                width: 28%;
+                                right: -3%;
+                                bottom: -70px;
+                            }
+                        }
+                    }
+                }
+    
+                &.point4 {
+                    .text_box {
+                        transform: none;
+                        top: 0;
+                        right: 0;
+                        margin: -60px -30px 0 30px;
+                        .box_inner {
+                            img {
+                                right: 0%;
+                                bottom: -100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .map {
+        background: #fff;
+        margin: 20px auto 110px;
+        padding: 85px 0 50px;
+        width: 95%;
+        h2 {
+            font-size: 40px;
+            color: #B71524;
+            font-weight: 900;
+            font-family: "Zen Kaku Gothic New", sans-serif;
+            text-align: center;
+            img {
+                width: 178px;
+                height: 14px;
+                margin: 0 auto;
+            }
+        }
+        .sub_text {
+            font-size: 25px;
+            font-weight: 900;
+            font-family: "Zen Kaku Gothic New", sans-serif;
+            text-align: center;
+            margin: 45px 0 55px;
+        }
+        .box {
+            display: flex;
+            gap: 2%;
+            flex-wrap: wrap;
+            max-width: 1400px;
+            width: 80%;
+            margin: 60px auto 0;
+            .item {
+                width: 18%;
+                margin: 0 0 55px;
+                @media screen and (max-width: 768px){
+                    margin-right: 0;
+                }
+                &:nth-child(5n){
+                    margin-right: 0;
+                }
+                .title {
+                    font-size: 14px;
+                    color: #C51726;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .address {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+                .tel {
+                    font-size: 12px;
+                    margin-bottom: 14px;
+                }
+                .more-btn {
+                    width: 100%;
+                    padding: 5px 0;
+                    font-family: 'DIN';
+                    img {
+                        right: 5px;
+                    }
+                }
+
+                &.award {
+                    position: relative;
+                    .award_ico {
+                        position: absolute;
+                        right: 0;
+                        bottom: 50px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            margin: 20px auto 70px;
+            padding: 40px 15px 0;
+            width: 85%;
+            h2 {
+                font-size: 20px;
+                img {
+                    width: 91px;
+                    height: 7px;
+                }
+            }
+            .sub_text {
+                font-size: 15px;
+                line-height: 28px;
+                margin: 30px 0 40px;
+            }
+            .box {
+                flex-direction: column;
+                max-width: 1400px;
+                width: 100%;
+                margin: 40px auto 0;
+                .item {
+                    width: 100%;
+                    .more-btn {
+                        padding: 10px 0;
+                    }
+
+                    &.award {
+                        .award_ico {
+                            top: -15px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .last {
+        background: #B11423;
+        .title {
+            width: 35%;
+            margin: 0 auto;
+            padding-top: 25px;
+        }
+        .sub_title {
+            font-size: 40px;
+            color: #fff;
+            font-weight: 900;
+            font-family: "Zen Kaku Gothic New", sans-serif;
+            text-align: center;
+        }
+        .text {
+            margin-top: 48px;
+            font-size: 20px;
+            color: #fff;
+            line-height: 44px;
+            text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+            .title {
+                width: 75%;
+                margin: 0 auto;
+                padding-top: 25px;
+            }
+            .sub_title {
+                font-size: 26px;
+                line-height: 43px;
+            }
+            .text {
+                margin-top: 20px;
+                font-size: 13px;
+                line-height: 26px;
+            }
+        }
+    }
+
+    .bnr {
+        padding: 50px 0;
+        a {
+            width: 75%;
+            margin: 0 auto;
+            padding-bottom: 0;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            a {
+                width: 90%;
+            }
+        }
+    }
+
+
+    //楽天洗車
+    &.wash {
+        .point {
+            h1 {
+                .red {
+                    color: #003E8D;
+                    &::after {
+                        background: url(./../images/rakuten-wash/under.png) no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+
+            .point_sec {
+                .text_box {
+                    border: 6px solid #003E8D;
+                    .box_inner {
+                        .num {
+                            color: #003E8D;
+                            &::after {
+                                background: url(./../images/rakuten-wash/under.png) no-repeat;
+                                background-size: contain;
+                            }
+                        }
+                        img {
+                            width: 25%;
+                            right: -15px;
+                            bottom: -70px;
+                        }
+                    }
+                }
+
+                &.point1 {
+                    .text_box {
+                        top: 30px;
+                        right: 50%;
+                        transform: translateX(100%);
+                    }
+                }
+
+                &.point2 {
+                    .img {
+                        margin-left: auto;
+                    }
+                    .text_box {
+                        top: 30px;
+                        left: 50%;
+                        transform: translateX(-100%);
+                        .box_inner {
+                            img {
+                                width: 35%;
+                                left: -30px;
+                                bottom: -95px
+                            }
+                        }
+                    }
+                }
+
+                &.point3 {
+                    margin-bottom: 350px;
+                    .img {
+                        margin: 0 auto;
+                        width: 80%;
+                    }
+                    .text_box {
+                        padding: 30px 65px 50px;
+                        top: 60%;
+                        right: 50%;
+                        transform: translateX(50%);
+                        .box_inner {
+                            img {
+                                width: 25%;
+                                right: -10%;
+                                bottom: -100px;
+                            }
+                        }
+                    }
+                }
+
+                &.point4 {
+                    .text_box {
+                        top: 30px;
+                        right: 50%;
+                        transform: translateX(100%);
+                        .box_inner {
+                            img {
+                                right: -8%;
+                                bottom: -120px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media screen and (max-width: 768px) {
+                .point_sec {
+                    &.point1 {
+                        .text_box {
+                            transform: none;
+                            top: 0;
+                            right: 0;
+                            margin: -60px -30px 0 30px;
+                            .box_inner {
+                                img {
+                                    width: 25%;
+                                    right: 0;
+                                    bottom: -60px;
+                                }
+                            }
+                        }
+                    }
+        
+                    &.point2 {
+                        display: flex;
+                        flex-direction: column;
+                        .text_box {
+                            transform: none;
+                            top: 0;
+                            left: 0;
+                            margin: -60px 30px 0 -30px;
+                            order: 2;
+                            .box_inner {
+                                img {
+                                    left: auto;
+                                    right: -70px;
+                                    bottom: 130px;
+                                    width: 30%;
+                                }
+                            }
+                        }
+                    }
+        
+                    &.point3 {
+                        margin-bottom: 100px;
+                        .img {
+                            width: 100%;
+                        }
+                        .text_box {
+                            padding: 30px 15px 50px;
+                            transform: none;
+                            top: 0;
+                            right: 0;
+                            margin: -60px auto 0;
+                            width: 76%;
+                            .box_inner {
+                                img {
+                                    width: 35%;
+                                    right: -3%;
+                                    bottom: -70px;
+                                }
+                            }
+                        }
+                    }
+        
+                    &.point4 {
+                        .text_box {
+                            transform: none;
+                            top: 0;
+                            right: 0;
+                            margin: -60px -30px 0 30px;
+                            .box_inner {
+                                img {
+                                    right: 0%;
+                                    bottom: -100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .map {
+            h2 {
+                color: #003E8D;
+            }
+            .box {
+                .item {
+                    .title {
+                        color: #003E8D;
+                    }
+                    .more-btn {
+                        background-color: #003E8D;
+                        border: 4px solid #003E8D;
+                        &:hover {
+                            background-color: #fff;
+                            color: #003E8D;
+                        }
+                    }
+                }
+            }
+        }
+
+        .last {
+            background: #003E8D;
+        }
+    }
+}
